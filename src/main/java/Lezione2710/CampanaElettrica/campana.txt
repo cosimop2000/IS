@@ -1,0 +1,2 @@
+Estensione CampanaSimulator usando
+Adapter pattern in Lezione20/10
