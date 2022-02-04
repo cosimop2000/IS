@@ -27,5 +27,9 @@ public class Test {
 
         System.out.println("Personizzazione scelta: " + pc2.getDescription() + "costo  " + pc2.cost());
 
+        Computer pc3 = new Desktop();
+        pc3 = new HD(new Ram(new CPU(pc3)));
+        System.out.println("Personizzazione scelta: " + pc3.getDescription() + "costo  " + pc3.cost());
+
     }
 }
